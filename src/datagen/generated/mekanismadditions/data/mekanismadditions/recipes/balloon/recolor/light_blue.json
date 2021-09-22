@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "mekanismadditions:light_blue_balloon"
+  },
+  "ingredients": [
+    {
+      "tag": "mekanismadditions:balloons"
+    },
+    {
+      "tag": "forge:dyes/light_blue"
+    }
+  ]
+}

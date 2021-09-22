@@ -1,0 +1,197 @@
+{
+	"credit": "Model by CyanideX",
+	"parent": "block/cube_all",
+	"textures": {
+		"1": "mekanismgenerators:block/model/fuel_assembly/fuel_rod_assembly_rods_top",
+		"4": "mekanismgenerators:block/model/fuel_assembly/fuel_rod_assembly_side",
+		"5": "mekanismgenerators:block/model/fuel_assembly/fuel_rod_assembly_base",
+		"particle": "mekanismgenerators:block/model/fuel_assembly/fuel_rod_assembly_side"
+	},
+	"elements": [
+		{
+			"name": "core",
+			"from": [2, 3, 2],
+			"to": [14, 13, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [2, 3, 14, 13], "texture": "#4"},
+				"east": {"uv": [2, 3, 14, 13], "texture": "#4"},
+				"south": {"uv": [2, 3, 14, 13], "texture": "#4"},
+				"west": {"uv": [2, 3, 14, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_1",
+			"from": [13, 1, 1],
+			"to": [15, 15, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.94118, 10.14706, 7.82353]},
+			"faces": {
+				"north": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"east": {"uv": [13, 3, 15, 13], "texture": "#4"},
+				"south": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"west": {"uv": [1, 3, 3, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_2",
+			"from": [9, 1, 1],
+			"to": [11, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.94118, 10.14706, 7.82353]},
+			"faces": {
+				"north": {"uv": [5, 3, 7, 13], "texture": "#4"},
+				"east": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"south": {"uv": [9, 3, 11, 13], "texture": "#4"},
+				"west": {"uv": [5, 3, 7, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_3",
+			"from": [5, 1, 1],
+			"to": [7, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.05882, 10.14706, 7.82353]},
+			"faces": {
+				"north": {"uv": [9, 3, 11, 13], "texture": "#4"},
+				"east": {"uv": [5, 3, 7, 13], "texture": "#4"},
+				"south": {"uv": [5, 3, 7, 13], "texture": "#4"},
+				"west": {"uv": [9, 3, 11, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_4",
+			"from": [1, 1, 1],
+			"to": [3, 15, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.05882, 10.14706, 7.82353]},
+			"faces": {
+				"north": {"uv": [13, 3, 15, 13], "texture": "#4"},
+				"east": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"south": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"west": {"uv": [1, 3, 3, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_5",
+			"from": [1, 1, 5],
+			"to": [15, 15, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.05882, 10.14706, 11.82353]},
+			"faces": {
+				"north": {"uv": [5, 3, 7, 13], "texture": "#4"},
+				"east": {"uv": [9, 3, 11, 13], "texture": "#4"},
+				"south": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"west": {"uv": [5, 3, 7, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_6",
+			"from": [1, 1, 9],
+			"to": [15, 15, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.05882, 10.14706, 15.82353]},
+			"faces": {
+				"north": {"uv": [9, 3, 11, 13], "texture": "#4"},
+				"east": {"uv": [5, 3, 7, 13], "texture": "#4"},
+				"south": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"west": {"uv": [9, 3, 11, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_7",
+			"from": [1, 1, 13],
+			"to": [3, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.05882, 10.14706, 19.82353]},
+			"faces": {
+				"north": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"east": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"south": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"west": {"uv": [13, 3, 15, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "rod_8",
+			"from": [13, 1, 13],
+			"to": [15, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.94118, 10.14706, 19.82353]},
+			"faces": {
+				"north": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"east": {"uv": [1, 3, 3, 13], "texture": "#4"},
+				"south": {"uv": [13, 3, 15, 13], "texture": "#4"},
+				"west": {"uv": [1, 3, 3, 13], "texture": "#4"}
+			}
+		},
+		{
+			"name": "connector_ring_top",
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14.5, 0.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "connector_ring_bottom",
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 0.5]},
+			"faces": {
+				"north": {"uv": [0, 13, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 13, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 13, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 13, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "fuel_rod_assembly",
+			"origin": [8, 4, 8],
+			"children": [0,
+				{
+					"name": "rods",
+					"origin": [8, 8, 8],
+					"children": [1, 2, 3, 4, 5, 6, 7, 8]
+				},
+				{
+					"name": "connector_rings",
+					"origin": [8, 8, 8],
+					"children": [9, 10]
+				}
+			]
+		}
+	]
+}

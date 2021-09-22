@@ -1,0 +1,24 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": [
+    {
+      "ingredient": {
+        "tag": "forge:mushrooms"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:warped_fungus"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:crimson_fungus"
+      }
+    }
+  ],
+  "output": {
+    "infuse_type": "mekanism:fungi",
+    "amount": 10
+  }
+}

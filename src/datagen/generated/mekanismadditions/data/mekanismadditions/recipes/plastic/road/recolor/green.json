@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismadditions:green_plastic_road",
+    "count": 4
+  },
+  "pattern": [
+    " # ",
+    "#D#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "mekanismadditions:plastic_blocks/road"
+    },
+    "D": {
+      "tag": "forge:dyes/green"
+    }
+  }
+}

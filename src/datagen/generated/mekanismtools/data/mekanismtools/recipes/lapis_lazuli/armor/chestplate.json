@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismtools:lapis_lazuli_chestplate"
+  },
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:gems/lapis"
+    }
+  }
+}

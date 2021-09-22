@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismtools:refined_glowstone_shovel"
+  },
+  "pattern": [
+    "I",
+    "R",
+    "R"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/refined_glowstone"
+    },
+    "R": {
+      "tag": "forge:rods/wooden"
+    }
+  }
+}

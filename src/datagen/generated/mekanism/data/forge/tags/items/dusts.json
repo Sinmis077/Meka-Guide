@@ -1,0 +1,27 @@
+{
+  "values": [
+    "mekanism:dust_iron",
+    "mekanism:dust_gold",
+    "mekanism:dust_osmium",
+    "mekanism:dust_copper",
+    "mekanism:dust_tin",
+    "mekanism:dust_lead",
+    "mekanism:dust_uranium",
+    "#forge:dusts/bronze",
+    "#forge:dusts/charcoal",
+    "#forge:dusts/coal",
+    "#forge:dusts/diamond",
+    "#forge:dusts/emerald",
+    "#forge:dusts/netherite",
+    "#forge:dusts/lapis",
+    "#forge:dusts/lithium",
+    "#forge:dusts/obsidian",
+    "#forge:dusts/quartz",
+    "#forge:dusts/refined_obsidian",
+    "#forge:dusts/salt",
+    "#forge:dusts/steel",
+    "#forge:dusts/sulfur",
+    "#forge:dusts/wood",
+    "#forge:dusts/fluorite"
+  ]
+}

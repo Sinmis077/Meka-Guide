@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismtools:osmium_boots"
+  },
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/osmium"
+    }
+  }
+}
