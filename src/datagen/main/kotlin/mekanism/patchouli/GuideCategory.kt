@@ -10,11 +10,15 @@ enum class GuideCategory : IGuideCategory {
     ITEMS_METAL_AND_ORE,
     ITEMS_GEAR,
     ITEMS_UPGRADES,
+    ITEMS_MODULES,
     BLOCKS,
+    BLOCKS_MACHINES,
+    BLOCKS_TRANSMITTERS,
+    BLOCKS_STORAGE,
     MULTIBLOCKS,
     ORE_PROCESSING,
     CHEMICALS,
-    LIQUIDS
+    ENTITIES,
     ;
 
     override val id: String = name.toLowerCase(Locale.ROOT)
